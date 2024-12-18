@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+ 
+}
+body{
+    background-color: rgb(255, 245, 223);
+}
+#root{
+  
+}
+header{
+    color: aliceblue;
+    padding: 20px;
+    background-color: black;
+}
+.itemCarrinhoList{
+    display: flex;
+    border: 1px solid rgb(196, 196, 196);
+    justify-content: space-between;
+    width: 60%;
+    margin: 5px;
+    padding: 10px;
+    height: 10em;
+    border-radius: 20px;
+    background-color: rgb(255, 254, 234);
+}
+li{
+    list-style: none;
+    width: auto;
+
+}
+ul{
+
+}
+input{
+    width: 40px;
+}
+#TotalPrice{
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+#imgProduto{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    margin-right: 10px;
+}
+.imgAndName{
+    display: flex;
+    align-items: center;
+    width: 12em;
+    height: 90%;
+}
+
+#btnCarrinho{
+    padding: 15px;
+    border: none;
+    background-color: rgb(0, 197, 26);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    cursor: pointer;
+}
+#btnCarrinho:hover{
+    background-color: rgb(13, 216, 40);;
+}
+#btnVoltar{
+    padding: 10px;
+    border: none;
+    background-color: rgb(177, 121, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    cursor: pointer;
+}
+#divListCarrinho{
+    overflow: auto;
+    max-height:65vh ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.divEndereco{
+    margin: 20px;
+}
+#endereco{
+    width: 20em;
+}
+input{
+    padding: 5px;
+}

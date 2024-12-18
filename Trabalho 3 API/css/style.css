@@ -1,0 +1,134 @@
+body ,#iconCarrinho{
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(255, 245, 223);
+}
+#root{
+    margin-top: 6em;
+}
+.divCarrinho{
+    display: flex;
+    margin-right: 2em;
+    align-items: center;
+}
+.card{
+    position: relative;
+    background-color: #ffcc80;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px;
+    width: 18em;
+    height: auto;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.card:hover{
+
+    background-color: rgb(216, 158, 51);
+    
+}
+img{
+width: 85%;
+height: 50%;
+margin-bottom:10px ;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 0px;
+}
+.dataCoffe{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 10px;
+}
+span{
+    margin-top: 5px;
+}
+#ingredientsItems{
+    justify-content: start;
+    list-style: decimal;
+
+}
+.btnAdcionarCarrinho{
+    position: absolute;
+    
+    bottom: 8px;
+    right: 8px;
+    background-color: rgb(193, 255, 152);
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 12px;
+
+
+}
+.btnAdcionarCarrinho:hover{
+    background-color:    rgb(9, 224, 63);;
+}
+header{
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    color: aliceblue;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    font-size: large;
+    justify-content: space-between
+
+}
+
+#btnCarrinho{
+
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#btnCarrinho:hover{
+    background-color: rgb(31, 31, 31);
+}
+@media (max-width: 800px) {
+   body{
+    background-color: rgb(255, 245, 223);
+   }
+   ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    padding: 0px;
+}
+.card{
+
+    width: 80%;
+}
+}
+@media (max-width: 600px) {
+   body{
+    background-color: rgb(255, 245, 223);
+   }
+   ul{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 0px;
+}
+.card{
+
+    width: 80%;
+}
+}
+  
